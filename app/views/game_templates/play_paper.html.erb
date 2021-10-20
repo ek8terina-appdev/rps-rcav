@@ -1,0 +1,13 @@
+<h2>We played paper!</h2>
+<% played = ["rock", "scissors", "paper"].sample %>
+<h2>
+  They played <%= played %>!
+</h2>
+<%if played == "rock"%>
+  <h2>We won!</h2>
+<%elsif played == "scissors"%>
+  <h2>We lost!<h2>
+<%elsif played == "paper"%>
+  <h2>We tied!<h2>
+<%end%>
+
